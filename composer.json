@@ -4,21 +4,6 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Cristian Tabacitu",
-            "email": "hello@backpackforlaravel.com",
-            "homepage": "https://backpackforlaravel.com"
-        },
-        {
-            "name": "Antonio Almeida",
-            "email": "promatik@gmail.com",
-            "homepage": "https://backpackforlaravel.com"
-        },
-        {
-            "name": "Mauro Martinez",
-            "email": "maurohmartinez@gmail.com",
-            "homepage": "https://backpackforlaravel.com"
-        },
-        {
             "name": "TanNhatCMS",
             "email": "mrkiet.dev@gmail.com",
             "homepage": "https://mrkiet.name.vn"
@@ -37,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Backpack\\ThemeCoreuiv4LMS\\": "src/"
+            "TanNhatCMS\\ThemeCoreuiv4LMS\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Backpack\\ThemeCoreuiv4LMS\\Tests\\": "tests"
+            "TanNhatCMS\\ThemeCoreuiv4LMS\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,7 +36,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Backpack\\ThemeCoreuiv4LMS\\AddonServiceProvider"
+                "TanNhatCMS\\ThemeCoreuiv4LMS\\AddonServiceProvider"
             ]
         }
     }

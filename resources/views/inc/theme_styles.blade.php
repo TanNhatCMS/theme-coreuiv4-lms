@@ -2,4 +2,4 @@
 @basset('https://cdn.jsdelivr.net/npm/simplebar@6.2.5/dist/simplebar.min.css')
 
 {{-- Custom Backpack Rules --}}
-@basset(base_path('vendor/backpack/theme-coreuiv4/resources/assets/css/coreui4lms.css'))
+@basset(base_path('vendor/tannhatcms/theme-coreuiv4-lms/resources/assets/css/coreui4lms.css'))

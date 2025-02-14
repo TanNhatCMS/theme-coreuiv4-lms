@@ -1,6 +1,6 @@
 <?php
 
-namespace Backpack\ThemeCoreuiv4LMS;
+namespace TanNhatCMS\ThemeCoreuiv4LMS;
 
 use Backpack\CRUD\ThemeServiceProvider;
 

@@ -20,7 +20,7 @@ The file structure inside this package is the same as CoreUI v2, which is the sa
 Because this a 1st party theme, you can quickly install it using
 
 ```
-php artisan backpack:require:theme-coreuiv4
+php artisan tannhatcms:require:theme-coreuiv4-lms
 ```
 
 Alternatively, follow the manual installation process below.
@@ -30,28 +30,28 @@ Alternatively, follow the manual installation process below.
 **Step 1.** Install via Composer
 
 ``` bash
-composer require backpack/theme-coreuiv4
+composer require tannhatcms/theme-coreuiv4-lms
 ```
 
 **Step 2.** Go to `config/backpack/ui.php` and change your view namespace:
 
 ```diff
 -    'view_namespace' => 'backpack::',
-+    'view_namespace' => 'backpack.theme-coreuiv4::',
++    'view_namespace' => 'tannhatcms.theme-coreuiv4-lms::',
 ```
 
 **Step 3. (Optional)** Publish the theme config file:
 
 ```bash
-php artisan vendor:publish --tag="theme-coreuiv4-config"
+php artisan vendor:publish --tag="coreuiv4-lms-config"
 ```
 
 ## Uninstalling
 
 To uninstall this Backpack theme:
 
-1. Remove the composer package. Eg. `composer remove backpack/theme-coreuiv4`
-2. Delete the config file. Eg. `rm -rf config/backpack/theme-coreuiv4.php`
+1. Remove the composer package. Eg. `composer remove tannhatcms/theme-coreuiv4-lms`
+2. Delete the config file. Eg. `rm -rf config/backpack/theme-coreuiv4-lms.php`
 3. Install a new theme (eg. `php artisan backpack:require:theme-tabler`) or change the `view_namespace` in `config/backpack/ui.php` to the theme you want to be active.
 
 ## Overriding
@@ -62,15 +62,15 @@ The more files you copy-paste and customize, the more difficult it will be to up
 
 ```bash
 # create the custom directory if it's not already there
-mkdir -p resources/views/vendor/backpack/theme-coreuiv4
+mkdir -p resources/views/vendor/tannhatcms/theme-coreuiv4-lms
 
 # copy the blade file inside the folder we created above
-cp -i vendor/backpack/theme-coreuiv4/src/resources/views/dashboard.blade.php resources/views/vendor/backpack/theme-coreuiv4/dashboard.blade.php
+cp -i vendor/tannhatcms/theme-coreuiv4-lms/src/resources/views/dashboard.blade.php resources/views/vendor/tannhatcms/theme-coreuiv4-lms/dashboard.blade.php
 ```
 
 ## Change log
 
-Changes are documented here on Github. Please see the [Releases tab](https://github.com/backpack/theme-coreuiv4/releases).
+Changes are documented here on Github. Please see the [Releases tab](https://github.com/TanNhatCMS/theme-coreuiv4-lms/releases).
 
 ## Contributing
 
